@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WhatsNext</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Please enter your message here.</string>
+    <string name="button_send">ABANDON ALL HOPE</string>
+    <string name="title_activity_display_message">Your message, Master</string>
+    <string name="button_shorttask">short task</string>
+    <string name="button_mediumtask">medium task</string>
+    <string name="button_longtask">long task</string>
+    <string name="short_message">short</string>
+    <string name="title_activity_do_task">DoTask</string>
+    <string name="tasklength_choose">Please choose your task length.</string>
+    <string name="duration_short">60</string>
+    <string name="duration_med">120</string>
+    <string name="duration_long">10000000</string>
+    <string name="title_activity_add_task">AddTask</string>
+    <string name="howlong_question">How Long?</string>
+    <string name="example_activity">Swimming</string>
+    <string name="title_activity_task_running">TaskRunning</string>
+    <string name="title_activity_task_finished">TaskFinishedActivity</string>
+</resources>

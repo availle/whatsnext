@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fii.whatsnext.activities.TaskRunning"
+    tools:showIn="@layout/activity_task_running">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/displayed_task"
+            android:layout_weight="0.10"
+            android:layout_gravity="center_horizontal" />
+
+        <Chronometer
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.10"
+            android:text="0" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause/Resume"
+            android:textOn="Pause"
+            android:textOff="Resume"
+            android:onClick="onPause"
+            android:id="@+id/toggleButton"
+            android:layout_gravity="center_horizontal"
+            android:checked="true"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="Done!"
+            android:id="@+id/button"
+            android:onClick="onDone"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp" />
+    </LinearLayout>
+</RelativeLayout>
